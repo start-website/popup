@@ -1,0 +1,94 @@
+.btn {
+    margin: 0 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.toast-example-1 {
+    z-index: 99999;
+    left: 23px;
+    bottom: 23px;
+    right: auto;
+    top: auto;
+}
+
+.toast-example-2 {
+    width: 450px;
+    z-index: 99999;
+    left: 0;
+    bottom: 23px;
+    right: 0;
+    top: auto;
+    margin: auto;
+}
+
+.toast-example-3 {
+    z-index: 99999;
+    left: auto;
+    bottom: 20px;
+    right: 20px;
+    top: auto;
+}
+
+.toast {
+    position: fixed;
+    visibility: hidden;
+}
+
+.toast.show {
+    visibility: visible;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.1s linear;
+}
+
+.modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    min-width: 450px;
+}
+
+.popup-example-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+}
+
+.banner {
+    display: none;
+    padding: 10px;
+    width: 100%;
+    font-size: .875rem;
+    pointer-events: auto;
+    background-color: rgba(255,255,255,.85);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.banner.show {
+    display: block;
+}
+
+.components {
+    position: relative;
+}
+
+.quiz {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}

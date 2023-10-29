@@ -1,0 +1,12 @@
+{
+    "en": {
+        "hello": "hello world!",
+        "device": "Device",
+        "save": "save trans"
+    },
+    "ru": {
+        "hello": "Привет мир!",
+        "device": "Устройство",
+        "save": "Сох"
+    }
+}
